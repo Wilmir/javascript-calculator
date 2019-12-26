@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class = container>
+            <div class = header>
+                <span id = "name">Calculator</span>
+                <span id = "author">Wilmir Nicanor</span>
+
+            </div>
+            <div class = "display" id="operands">
+
+            </div>
+            <div class = "display" id = "result">
+                0
+            </div>
+            <div class = "interface">
+                <div class="row">
+                    <button data-key="27" id="clear" type ="button">C</button>
+                    <button data-key="8" id="backspace" type ="button">&larr;</button>
+                    <button data-key="111" id="divide" class="operator" type ="button">/</button>
+                    <button data-key="106" id="multiply" class="operator" type ="button">*</button>
+                </div>
+                <div class="row">
+                    <button data-key="55" class="input" type ="button">7</button>
+                    <button data-key="56" class="input" type ="button">8</button>
+                    <button data-key="57" class="input" type ="button">9</button>
+                    <button data-key="109" id="subtract" class="operator" type ="button">-</button>
+                </div>
+                <div class="row">
+                    <button data-key="52" class="input" type ="button">4</button>
+                    <button data-key="53" class="input" type ="button">5</button>
+                    <button data-key="54" class="input" type ="button">6</button>
+                    <button data-key="107" id="add" class="operator" type ="button">+</button>
+                </div>
+                <div class="row">
+                    <div class = "col-1">
+                        <div class = "row-1">
+                            <button data-key="49" class="input"  type ="button">1</button>
+                            <button data-key="50" class="input" type ="button">2</button>
+                            <button data-key="51" class="input" type ="button">3</button>
+                        </div>
+                        <div class = "row-2">
+                                <button data-key="48" class="input" id="zero" type ="button">0</button>
+                                <button data-key="110" id="dot" type ="button">.</button>
+                        </div>
+                    </div>
+                    <div class = "col-2">                   
+                        <button data-key="13" id="equal" type ="button">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src = 'script.js'></script>
+</html>
